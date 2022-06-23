@@ -1,4 +1,6 @@
-from django.views.generic.edit import ListView, CreateView, DetailView, UpdateView, DeleteView
+from msilib.schema import ListView
+from django.urls import reverse_lazy
+from django.views.generic.edit import CreateView, DetailView, UpdateView, DeleteView
 from .models import Post
 
 # Create your views here.

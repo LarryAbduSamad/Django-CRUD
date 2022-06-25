@@ -5,7 +5,6 @@ from django.urls import reverse
 from django.template.defaultfilters import slugify
 
 # Create your models here.
-
 class Post(models.Model):
     
     STATUS_CHOICES = (
